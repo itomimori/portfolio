@@ -26,11 +26,12 @@
 
 ```bash
 pip install -r requirements.txt
-
+```
 - .env ファイルを作成し、APIキーを設定：
+```bash
 OPENAI_API_KEY=your-openai-key
 ANTHROPIC_API_KEY=your-anthropic-key
-
+```
 🖥️ 使い方
 - 左側のテキストボックスにPythonコードを入力（初期値あり）
 - モデル（GPTまたはClaude）を選択
@@ -41,4 +42,4 @@ ANTHROPIC_API_KEY=your-anthropic-key
 ![alt text](image.png)
 
 ![alt text](image-1.png)
-```
+
