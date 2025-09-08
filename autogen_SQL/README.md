@@ -16,11 +16,11 @@
 
 ```bash
 pip install -r requirements.txt
-
+```
 2. env ファイルを作成し、OpenAI APIキーを設定：
-
+```bash
 OPENAI_API_KEY=your-api-key
-
+```
 3.　スキーマファイルを databaseフォルダ内に配置
 
 🧠 使用技術
@@ -38,4 +38,4 @@ OPENAI_API_KEY=your-api-key
 ミスタイピングを含むもの
 ![alt text](image-3.png)
 
-```
+
