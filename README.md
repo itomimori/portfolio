@@ -18,6 +18,7 @@
 
 ```bash
 pip install -r requirements.txt
+```
 
 ##  🔐 環境設定
 プロジェクトのルートディレクトリに .env ファイルを作成し、以下のAPIキーを設定してください：
@@ -25,7 +26,7 @@ OPENAI_API_KEY=your-openai-key
 HF_TOKEN=your-huggingface-token
 ANTHROPIC_API_KEY=your-anthropic-key
 
-💡 モデル選定と実行環境に関する技術的理解
+##  💡 モデル選定と実行環境に関する技術的理解
 ローカル環境でのオープンソースLLMの活用は、再現性・運用性・コスト面において理想的であると理解しています。
 ただし、現時点では自身のPC環境（GPU性能・メモリ容量など）に制約があるため、以下のような設計方針を採用しています：
 - 一部処理においては、GPT-4oやClaude 3.5などのフロンティアモデルをクラウド経由で疑似的に利用
