@@ -1,6 +1,6 @@
 # 📝 AI 議事録アシスタント
 
-このプロジェクトは、会議音声ファイル（MP3）をアップロードするだけで、参加者・日時・場所などの情報をもとに、Markdown 形式の議事録を自動生成する AI ツールです。OpenAI Whisper による音声認識と LLaMA 3.1 による自然言語処理を組み合わせ、構造化された議事録を即座に出力します。
+このプロジェクトは、会議音声ファイル（MP3）をアップロードするだけで、参加者・日時・場所などの情報をもとに、Markdown 形式の議事録を自動生成する AI ツールです。OpenAI Whisper による音声認識と LLaMA 3.1 による自然言語処理を組み合わせ、構造化された議事録を出力します。
 
 ## 🚀 主な機能
 
@@ -26,11 +26,12 @@
 
 ```python
 %pip install -q requests torch bitsandbytes transformers sentencepiece accelerate openai httpx==0.28.1 gradio
-
+```
 2． Colabの userdata に以下のキーを設定：
+```bash
 OPENAI_API_KEY
 HF_TOKEN
-
+```
 🖥️ 使い方
 - MP3形式の音声ファイルをアップロード
 - 参加者・日時・場所を入力（任意）
@@ -50,4 +51,3 @@ HF_TOKEN
 ⚠️ 注意事項
 日本語の音声では、参加者や日付、場所に関して誤った出力がみられるため、userプロンプトに追加する処理を追加したが、GPUの性能等の理由で動作未確認の状態
 
-```
