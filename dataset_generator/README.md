@@ -28,12 +28,13 @@
 
 ```python
 %pip install -q python-dotenv gradio anthropic openai requests torch bitsandbytes transformers sentencepiece accelerate
-
+```
 2. Colabの userdata に以下のキーを設定：
+```python
 OPENAI_API_KEY
 ANTHROPIC_API_KEY
 HF_TOKEN
-
+```
 - スクリプトを実行すると、Gradio UIが表示されます。
 🖥️ 使い方
 - ビジネス課題を入力（例：「顧客の購買履歴を模擬したデータ」）
